@@ -1,7 +1,7 @@
 {
   "title": "Hello World Script",
   "description": "A basic script to print 'Hello, world!' to the console.",
-  "icon": "D:/bots/icon.png",
+  "icon": "https://raw.githubusercontent.com/PowerFriend/pinokioagencyswarm/main/icon.png",
   "run": [
     {
       "method": "shell.start"
