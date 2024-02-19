@@ -1,7 +1,6 @@
 {
   "title": "Agency Swarm Setup",
   "description": "Script to clone the Agency Swarm repository and set up the environment.",
-  "icon": "https://raw.githubusercontent.com/VRSEN/agency-swarm/main/logo.png",
   "run": [
     {
       "method": "shell.start"
