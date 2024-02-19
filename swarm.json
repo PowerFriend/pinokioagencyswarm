@@ -1,4 +1,7 @@
 {
+  "title": "Agency Swarm Setup",
+  "description": "Script to clone the Agency Swarm repository and set up the environment.",
+  "icon": "https://raw.githubusercontent.com/VRSEN/agency-swarm/main/logo.png",
   "run": [
     {
       "method": "shell.start"
@@ -16,17 +19,9 @@
       }
     },
     {
-      "method": "input.request",
-      "params": {
-        "message": "Please enter your OpenAI API key:",
-        "type": "password"
-      },
-      "save_as": "openai_api_key"
-    },
-    {
       "method": "shell.enter",
       "params": {
-        "message": "echo 'export OPENAI_API_KEY={{openai_api_key}}' >> ~/.bashrc"
+        "message": "python setup.py install"
       }
     }
   ]
