@@ -1,0 +1,33 @@
+{
+  "run": [
+    {
+      "method": "shell.start"
+    },
+    {
+      "method": "shell.enter",
+      "params": {
+        "message": "git clone https://github.com/VRSEN/agency-swarm.git && cd agency-swarm"
+      }
+    },
+    {
+      "method": "shell.enter",
+      "params": {
+        "message": "pip install -r requirements.txt"
+      }
+    },
+    {
+      "method": "input.request",
+      "params": {
+        "message": "Please enter your OpenAI API key:",
+        "type": "password"
+      },
+      "save_as": "openai_api_key"
+    },
+    {
+      "method": "shell.enter",
+      "params": {
+        "message": "echo 'export OPENAI_API_KEY={{openai_api_key}}' >> ~/.bashrc"
+      }
+    }
+  ]
+}
