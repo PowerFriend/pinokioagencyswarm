@@ -1,7 +1,6 @@
 {
   "title": "Agency Swarm Setup",
   "description": "Script to clone the Agency Swarm repository and set up the environment.",
-  "icon": "https://raw.githubusercontent.com/PowerFriend/pinokioagencyswarm/main/icon.png",
   "run": [
     {
       "method": "shell.start"
