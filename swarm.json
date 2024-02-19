@@ -1,7 +1,7 @@
 {
   "title": "Hello World Script",
   "description": "A basic script to print 'Hello, world!' to the console.",
-  "icon": "",
+  "icon": "https://via.placeholder.com/150",
   "run": [
     {
       "method": "shell.start"
