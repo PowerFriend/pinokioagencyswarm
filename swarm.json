@@ -1,6 +1,6 @@
 {
-  "title": "Agency Swarm Setup",
-  "description": "Script to clone the Agency Swarm repository and set up the environment.",
+  "title": "Hello World Script",
+  "description": "A basic script to print 'Hello, world!' to the console.",
   "run": [
     {
       "method": "shell.start"
@@ -8,13 +8,7 @@
     {
       "method": "shell.enter",
       "params": {
-        "message": "git clone https://github.com/VRSEN/agency-swarm.git && cd agency-swarm"
-      }
-    },
-    {
-      "method": "shell.enter",
-      "params": {
-        "message": "pip install -r requirements.txt"
+        "message": "echo 'Hello, world!'"
       }
     }
   ]
