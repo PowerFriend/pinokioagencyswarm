@@ -1,6 +1,7 @@
 {
   "title": "Hello World Script",
   "description": "A basic script to print 'Hello, world!' to the console.",
+  "icon": "",
   "run": [
     {
       "method": "shell.start"
